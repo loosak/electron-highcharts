@@ -1,0 +1,9 @@
+{
+  "name": "electronHighCharts",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "highcharts": "^5.0.2",
+    "jquery": "^3.1.1"
+  }
+}
