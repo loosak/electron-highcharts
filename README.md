@@ -1,6 +1,5 @@
-# [electron](https://electron.atom.io/) + [Highcharts](http://www.highcharts.com/)
-
 [![Electron Logo](https://electron.atom.io/images/electron-logo.svg)](https://electron.atom.io/)
+# + [Highcharts](http://www.highcharts.com/)
 
 To get fast start via [npm](https://www.npmjs.com) !
 
