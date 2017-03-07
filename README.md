@@ -1,6 +1,8 @@
-# Getting started with [Bootstrap](http://getbootstrap.com)
+# [electron](https://electron.atom.io/) + [Highcharts](http://www.highcharts.com/)
 
-To get fast start with <http://getbootstrap.com> via [npm](https://www.npmjs.com) !
+[![Electron Logo](https://electron.atom.io/images/electron-logo.svg)](https://electron.atom.io/)
+
+To get fast start via [npm](https://www.npmjs.com) !
 
 ## Table of contents
 
@@ -10,7 +12,18 @@ To get fast start with <http://getbootstrap.com> via [npm](https://www.npmjs.com
 ## Quick start
 
 * `npm init`
-* Install with [npm](https://www.npmjs.com): `npm i bootstrap@3 --save`.
+* Install Electron
+
+```sh
+# Install as a development dependency
+npm install electron --save-dev
+
+# Install the `electron` command globally in your $PATH
+npm install electron -g
+```
 * `npm i jquery --save`
+* `npm i highcharts --save`
+
+* `electron .`
 
 ## Documentation
