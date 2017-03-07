@@ -2,12 +2,38 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Highcharts</title>
-    <script>window.$ = window.jQuery = require('../node_modules/jquery/dist/jquery.min.js');</script>
+    <title>DHL</title>
+    <script>window.$ = window.jQuery = require('jquery');</script>
   </head>
+
+  <header>
+    <p>
+      header: Here comes minimal Highchart
+    </p>
+  </header>
+
   <body>
-		<!-- HTML begin here -->
-    <div id="container" style="width:100%; height:100%;"></div>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+
+    <div id="container" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
+
+    <p>Time: <span id="time"> None is here </span>​ <br>
+    <p>Free Memoty: <span id="freeMem"> None is here </span>​ <br>
   </body>
-  <script src="./js/applications.js"></script> <!-- "main" application -->
+
+  <footer>
+    <p>
+      We are running on <script> document.write(process.platform) </script>
+      using node <script>document.write(process.versions.node)</script>,
+      Chrome <script>document.write(process.versions.chrome)</script>,
+      Electron <script> document.write(process.versions.electron)</script>,
+      jQuery <script> document.write($().jquery) </script>
+      and Highcharts <span id="highchartsversion"> </span>.
+    </p>
+  </footer>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
 </html>
